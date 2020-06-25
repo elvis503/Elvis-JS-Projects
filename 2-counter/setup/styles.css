@@ -183,7 +183,8 @@ main {
   text-align: center;
 }
 #value {
-  font-size: 6rem;
+  padding-bottom: 0.2em;
+  font-size: 7rem;
   font-weight: bold;
 }
 .btn {

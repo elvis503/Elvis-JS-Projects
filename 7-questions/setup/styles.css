@@ -183,7 +183,7 @@ Questions
 */
 .title {
   margin-top: 15vh;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 .title h2 {
   color: var(--clr-gold);
@@ -230,8 +230,8 @@ Questions
 .question-text p {
   margin-bottom: 0;
 }
-/* hide text */
-/* .question-text {
+
+.question-text {
   display: none;
 }
 .show-text .question-text {
@@ -243,6 +243,7 @@ Questions
 .show-text .minus-icon {
   display: inline;
 }
+
 .show-text .plus-icon {
   display: none;
-} */
+} 

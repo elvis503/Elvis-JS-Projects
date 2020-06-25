@@ -10,7 +10,9 @@ const getHex = () => {
     return hexCode;
 }
 
-document.getElementById("btn").onclick = () => {
+const button = document.getElementById("btn");
+
+button.onclick = () => {
     let currentColor = getHex();
 
     document.querySelector(".color").innerHTML = currentColor;
