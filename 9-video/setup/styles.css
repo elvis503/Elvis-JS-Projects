@@ -214,6 +214,7 @@ header {
   object-fit: cover;
   z-index: -2;
 }
+
 h1 {
   color: var(--clr-white);
 }
@@ -255,6 +256,7 @@ h1 {
 .slide .switch {
   left: 50%;
 }
+
 /* header after */
 header::after {
   content: "";

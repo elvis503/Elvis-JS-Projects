@@ -4,10 +4,26 @@
 //offsetTop - A Number, representing the top position of the element, in pixels
 
 // ********** set date ************
+const date = document.querySelector("#date");
+date.innerHTML = new Date().getFullYear();
 
-// ********** close links ************
+//*********** fix nav bar after certain scrolling*******
+const navBar = document.querySelector("#nav");
 
-// ********** fixed navbar ************
+const goTopLink = document.querySelector(".top-link");
+ 
+window.addEventListener("scroll", function(){ 
+    let scrollTop = window.pageYOffset;
+    console.log(scrollTop);
+    if(scrollTop >= 120){
+        navBar.classList.add("fixed-nav");
+    }else{
+        navBar.classList.remove("fixed-nav");
+    }
 
-// ********** smooth scroll ************
-// select links
+    if(scrollTop >= 300){
+        goTopLink.classList.add("show-link")
+    }else{
+        goTopLink.classList.remove("show-link")
+    }
+})
